@@ -4,6 +4,13 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestName;
 
+/**
+ * Rules allow very flexible addition or redefinition of the behavior of each test method in a test
+ * class. Testers can reuse or extend one of the provided Rules below, or write their own.
+ * 
+ * @author rollin
+ *
+ */
 public class NameRuleTest {
 
   // The TestName Rule makes the current test name available inside test methods

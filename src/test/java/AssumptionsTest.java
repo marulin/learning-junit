@@ -26,5 +26,4 @@ public class AssumptionsTest {
     assertTrue("failure - should be true", true);
   }
 
-
 }
