@@ -18,9 +18,9 @@ public class AdditionWithTheoriesTest {
     assertTrue(a + b > a);
     assertTrue(a + b > b);
   }
-  
+
   @Theory
   public void addition_is_commutative(Integer a, Integer b) {
-     assertTrue(a + b == b + a);
+    assertTrue(a + b == b + a);
   }
 }
