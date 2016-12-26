@@ -14,7 +14,6 @@ public class AssumptionsTest {
     assertTrue("failure - should be true", true);
   }
 
-  @Ignore
   @Test
   public void texitIfFalseIsTrue() {
     assumeTrue(false);
